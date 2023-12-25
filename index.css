@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:'Libre Franklin';
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    width: 100%;
+    background: #fff;
+}
+
+.hero-section{
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #000;
+}
+
+.content{
+    padding: 3px;
+}
+
+.content h1{
+    color: hsl(0, 0%, 59%);
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.content p{
+    padding-top: 10px;
+}
+
+.content span{
+    font-weight: 700;
+    color: #000;
+}
+
+.subscribe{
+    padding-top: 25px;
+}
+
+#input{
+    padding: 10px 20px;
+    width: 370px;
+    height: 35px;
+    color: #000;
+    border-radius: 25px;
+    box-shadow: 0 0 0.2rem hsl(0, 0%, 59%);
+}
+
+::placeholder{
+    color: hsl(0, 0%, 80%);
+}
+
+button{
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 25px;
+    background:hsl(223, 87%, 63%);
+    color: #fff;
+    box-shadow: 0 0 0.3rem hsl(0, 0%, 59%);
+}
+
+button:hover{
+    background: hsl(223, 100%, 88%);
+}
+
+.image{
+    padding-top: 70px;
+}
+
+.image img{
+    width: 570px;
+    height: 320px;
+    object-fit: cover;
+}
+
+footer{
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+footer p{
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.social-icons{
+    padding-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a{
+    width: 2.5rem;
+    height: 2.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: .1rem solid hsl(0, 0%, 90%);
+    box-shadow: 0 0 0.2rem hsl(0, 0%, 90%);
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.social-icons a:hover{
+    border: .1rem solid hsl(223, 87%, 63%);
+    color:  #fff;
+    box-shadow: 0 0 1rem hsl(223, 87%, 63%);
+    background: hsl(223, 87%, 63%);
+}
+
+.social-icons a svg path{
+    fill: hsl(223, 87%, 63%);
+}
+
+.social-icons a svg path:hover{
+    fill: #fff;
+}
+
+@media (max-width: 375px){
+    .content{
+        padding: 4px;
+    }
+    .content h1{
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+
+    .subscribe{
+        padding-top: 15px;
+    }
+
+    #input{
+        width: 240px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        width: 240px;
+    }
+
+    .image img{
+        width: 265px;
+        height: 170px;
+    }
+
+    .social-icons{
+        padding-top: 2px;
+    }
+
+    .social-icons a{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .social-icons a svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    footer{
+        margin: -70px 0 40px 0;
+    }
+
+    .attribution{
+    font-size: 10px;
+    }
+}
