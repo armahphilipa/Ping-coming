@@ -133,7 +133,7 @@ footer p{
     fill: #fff;
 }
 
-@media (max-width: 420px){
+@media (max-width: 450px){
     .content{
         padding: 10px;
     }
