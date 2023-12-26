@@ -133,6 +133,56 @@ footer p{
     fill: #fff;
 }
 
+@media (max-width: 420px){
+    .content{
+        padding: 10px;
+    }
+    .content h1{
+        font-size: 1.7rem;
+        padding-top: 10px;
+    }
+    .subscribe{
+        padding-top: 15px;
+    }
+
+    #input{
+        width: 270px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        width: 270px;
+    }
+
+    .image img{
+        width: 285px;
+        height: 185px;
+    }
+
+    .social-icons{
+        padding-top: 2px;
+    }
+
+    .social-icons a{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .social-icons a svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    footer{
+        margin: -20px 0 40px 0;
+    }
+
+    .attribution{
+    font-size: 10px;
+    } 
+
+}
+
 @media (max-width: 390px){
     .content{
         padding: 7px;
